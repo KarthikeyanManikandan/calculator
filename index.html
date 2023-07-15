@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABC</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+   <div class="main">
+      <input type="text" id = 'res'>
+      <div class="btn">
+        
+         <input type="button" value = '7' onclick= "display('7')">
+         <input type="button" value = '8' onclick = "display('8')">
+         <input type="button" value = '9' onclick = "display('9')">
+         <input type="button" value = 'x' onclick = "display('*')">
+         <br>
+         <input type="button" value = '4' onclick = "display('4')">
+         <input type="button" value = '5' onclick = "display('5')">
+         <input type="button" value = '6' onclick = "display('6')">
+         <input type="button" value = '-' onclick = "display('-')">
+         <br>
+         <input type="button" value = '1' onclick = "display('1')">
+         <input type="button" value = '2' onclick = "display('2')">
+         <input type="button" value = '3' onclick = "display('3')">
+         <input type="button" value = '+' onclick = "display('+')">
+         <br>
+
+         <input type="button" value = '←' onclick ="Back('<-')">
+         <input type="button" value = '0' onclick = "display('0')">
+         <input type="button" value = '.' onclick = "display('.')">
+         <input type="button" value = '/' onclick = "display('/')">
+         <br>
+         
+         <input type="button" id="CE" value = 'C' onclick= "Clear()">
+         <input type="button" id="RE" value = '=' onclick = "result('=')">
+      
+        </div>
+   </div>
+   <script src = 'app.js' ></script>
+</body>
+</html>
